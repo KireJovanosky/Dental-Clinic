@@ -1,0 +1,201 @@
+/* BODY */
+body {
+  width:100%; 
+  font-family: sans-serif;  
+}
+/* BODY END*/
+
+/* MAIN */
+.main {
+  overflow: hidden;
+}
+
+.welcome {  
+  float: left;
+  margin-top: 60px;
+  margin-left: 150px
+  
+}
+
+.welcome h2 {
+  font-size: 3rem;
+}
+
+.welcome h3 {
+  font-size: 1.125rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 4px;   
+}  
+
+.welcome h6 img{
+  float: left;
+  height: 18px;
+}
+
+.welcome h6 { 
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.125rem;  
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.button {
+  text-decoration: none;
+  color: #ff7149;  
+  padding: 20px 50px 20px 50px;
+  letter-spacing: 2px;
+  align-self: center;
+  text-align: center;
+  font-weight: 700;
+  border-style: solid;
+  border-color: #ff7149;
+  border-width: 2px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background: #ff7149;
+  color: antiquewhite;
+}
+
+.main img {
+  height: 550px;
+  float: right;
+}
+/* MAIN END*/
+
+/* HEADER */
+header {
+  overflow: hidden;
+}
+
+header img {
+  margin: 10px 40px;
+  float: left
+}
+
+#hamnav {  
+  float: inherit;
+  text-align: right;
+    
+}
+
+/* HAMBURGER MENU */
+#hamnav {
+    width: 100%;  
+    position: sticky;
+    top: 0;
+  }
+  
+#hamitems { 
+  display: flex; 
+}
+#hamitems a {    
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;  
+    text-align: center;
+    color: black;    
+    text-decoration: none;
+    font-weight: bold;
+  }
+#hamitems a:hover { 
+    background: #ff7149;  
+    color: white;  
+    text-decoration: none; 
+}
+  
+#hamnav label, #hamburger { 
+    display: none; 
+}  
+
+#hamitems a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #333;   
+}
+
+#hamitems :last-child {
+  border-bottom: 1px solid #333;
+}  
+  
+#hamnav label {
+  display: inline-block;      
+  color: rgb(0, 0, 0);      
+  font-style: normal;
+  font-size: 1.2em;
+  padding: 13px;
+}
+  
+#hamitems { 
+    display: none; 
+}
+#hamnav input:checked ~ #hamitems { 
+    display: block; 
+}
+
+#hamnav label {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#hamnav label:hover {
+  color: gray;
+} 
+
+/* HAMBURGER MENU END*/
+/* HEADER END*/
+
+
+
+/* FOOTER */
+.grid-container {  
+  display: inline-grid;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 10%;  
+  grid-template-columns: auto auto auto auto;
+
+}
+
+.grid-item {   
+  text-align: center;
+  margin: 0 10px;
+  background: #ff7149;
+  padding-top: 10px;
+  border-radius: 6px;
+  color: antiquewhite;
+}
+
+.grid-item a {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: antiquewhite;
+  text-underline-offset: 8px;
+}
+
+.grid-item h4 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.grid-item img {
+  width: 64px;
+  height: 64px;  
+}
+
+.grid-item p {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.grid-item a:hover { 
+  text-decoration-color: rgb(200, 200, 200);
+}
+/* FOOTER END */

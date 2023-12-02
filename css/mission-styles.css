@@ -1,0 +1,52 @@
+html {
+    font-family: Montserrat, sans-serif;    
+}
+
+.grid-container {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;    
+    grid-template-columns: auto auto; 
+    column-gap: 50px;
+    row-gap: 50px;     
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    width: 758px;
+    margin: 60px auto 20px;    
+    text-align: center;
+    
+}
+
+.title {
+    display: inline;
+    overflow: hidden;
+    
+}
+
+.title h4 {
+    font-size: 24px;
+    padding-top: 1px;
+    margin-left: 80px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #999999;
+}
+
+p {
+    font-size: 16px;
+    font-style: italic;
+    color: #999999;
+    letter-spacing: 1px;
+    margin-left: 80px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ff724a;
+    float: left;
+    border-radius: 60px;
+}

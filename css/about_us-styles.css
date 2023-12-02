@@ -1,0 +1,192 @@
+html {
+    font-family: sans-serif;
+}
+
+
+/* HEADER */
+header {
+    overflow: hidden;
+    background-color: #4867d6;    
+  }
+  
+  header img {
+    margin: 10px 40px;
+    float: left
+  }
+  
+  #hamnav {  
+    float: inherit;
+    text-align: right;
+      
+  }
+  
+  /* HAMBURGER MENU */
+  #hamnav {
+      width: 100%;  
+      position: sticky;
+      top: 0;
+    }
+    
+  #hamitems { 
+    display: flex; 
+  }
+  #hamitems a {    
+      flex-grow: 1;
+      flex-basis: 0;
+      padding: 10px;  
+      text-align: center;
+      color: black;    
+      text-decoration: none;
+      font-weight: bold;
+    }
+  #hamitems a:hover { 
+      background: white;  
+      color: #4867d6;  
+      text-decoration: none; 
+  }
+    
+  #hamnav label, #hamburger { 
+      display: none; 
+  }  
+  
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;   
+  }
+  
+  #hamitems :last-child {
+    border-bottom: 1px solid #333;
+  }  
+    
+  #hamnav label {
+    display: inline-block;      
+    color: rgb(0, 0, 0);      
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 13px;
+  }
+    
+  #hamitems { 
+      display: none; 
+  }
+  #hamnav input:checked ~ #hamitems { 
+      display: block; 
+  }
+  
+  #hamnav label {
+    font-weight: bold;
+    font-size: 26px;
+  }
+  
+  #hamnav label:hover {
+    color: gray;
+  }   
+  /* HAMBURGER MENU END*/
+  /* HEADER END*/
+
+/* FOOTER */
+.grid-container1 {  
+    display: inline-grid;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;  
+    grid-template-columns: auto auto auto;  
+    
+}
+
+.grid-item1 {   
+    text-align: left;
+    margin: 0 10px;
+    background: #ff7149;
+    padding-top: 10px;
+    border-radius: 6px;
+    color: antiquewhite;
+}
+
+.grid-item1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 115px;
+    margin-left: 38px;
+}  
+
+.grid-item1 img {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;       
+}
+
+.grid-item1 p {
+    font-size: 16;
+    margin-right: 20px;
+    margin-left: 38px;
+}
+/* FOOTER END */
+  
+.background-container {
+    background-image: url('/img/dentist-with-dentistry-tools-isolated.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;    
+    color: black;    
+    padding-top: 350px;
+    margin-bottom: 150px;
+}
+
+h4 {
+    margin-left: 30px;
+    font-size: 1.5rem;;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;  
+    margin-left: 40px;  
+    margin-top: -130px;    
+}
+
+h1 { 
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.grid-container {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto; 
+    width: 560px;
+    column-gap: 40px; 
+}
+
+.grid-item {
+    width: 255px;
+        
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+hr {
+    border: 1px solid wheat;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.review_date {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    margin-left: 38px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#testemonials {
+    text-align: center;
+    margin-top: -90px;
+}

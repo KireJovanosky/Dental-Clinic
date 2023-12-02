@@ -1,0 +1,152 @@
+body {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+
+/* MAIN */
+.main {
+    overflow: hidden;
+}
+  
+.welcome {  
+    float: right;
+    margin-top: 60px;
+    margin-right: 150px;
+    
+}
+  
+.welcome h2 {
+    font-size: 3rem;
+}
+
+p {
+    width: 420px;
+    line-height: 2;
+    font-size: 20px;
+}
+  
+.welcome h3 {
+    font-size: 1.125rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 4px;   
+}  
+  
+.button {
+    text-decoration: none;
+    color: #ff7149;  
+    padding: 20px 50px 20px 50px;
+    letter-spacing: 2px;
+    align-self: center;
+    text-align: center;
+    font-weight: 700;
+    border-style: solid;
+    border-color: #ff7149;
+    border-width: 2px;
+    border-radius: 6px;
+}
+  
+.button:hover {
+    background: #ff7149;
+    color: antiquewhite;
+}
+  
+.main img {        
+    width: 767px;
+    float: left;
+    border-top-right-radius: 520px;
+    border-bottom-right-radius: 520px;
+}
+/* MAIN END*/  
+
+/* TEAM */
+.team {
+    background-color: #ff7149;
+}
+
+.team h1 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 3.75rem;
+    color: white;
+}
+
+#team_description {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.grid-container {  
+    display: grid;
+    width: 80%;  
+    margin: 0 auto; 
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 30px;
+  }
+
+.grid-item {   
+    width: 360px;
+    text-align: left;
+    margin: 0 10px;
+    background: white;
+    padding-top: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+.personal_photo {
+    display: block;
+    margin: 0 auto; 
+    padding-top: 20px;
+    height: 300px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.grid-item h6 {
+    font-size: 1rem;    
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(173, 171, 171);
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.grid-item h3 {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+}
+
+.grid-item p {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    width: 80%;   
+    color: rgb(87, 87, 87);
+}
+
+.social {
+    margin-left: 30px;    
+    margin-bottom: 70px;
+}
+
+.social img {
+    margin-right: 20px;
+}
+
+
+/* TEAM END*/
+  
